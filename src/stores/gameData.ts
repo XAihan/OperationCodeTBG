@@ -19,7 +19,7 @@ export const useDataStore = defineStore("codeInfo", () => {
       for (let i = 0; i < col; i++) {
         item.push({
           name: getCardName(),
-          role: "",
+          role: "gray",
           isSelect: false,
         });
       }

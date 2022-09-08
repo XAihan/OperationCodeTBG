@@ -58,4 +58,8 @@ console.log(dataInfoStore.gameData);
   background: black;
   color: white;
 }
+.gray {
+  background: gray;
+  color: white;
+}
 </style>

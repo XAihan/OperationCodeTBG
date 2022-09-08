@@ -19,6 +19,11 @@ console.log(dataInfoStore.gameData);
         }"
         v-for="subItem in item"
         :key="subItem.name"
+        @click="
+          () => {
+            subItem.isSelect = true;
+          }
+        "
       >
         {{ subItem.name }}
       </div>
@@ -58,6 +63,10 @@ console.log(dataInfoStore.gameData);
 
 .black {
   background: black;
+  color: white;
+}
+.gray {
+  background: gray;
   color: white;
 }
 </style>
